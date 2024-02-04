@@ -62,5 +62,59 @@ nav a{
 }
 
 .sidebar{
+    z-index: 1;
+    position: absolute;
+    background: #fff;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+}
+
+.sidebar a{
+    font-family: sans-serif;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.menu_small{
+    background: #fff;
+    display: none;
+    padding: 10px;
+}
+
+.menu_small .logo{
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+.menu_small .logo img{
+    width: 70%;
+    object-fit: contain;
+}
+
+.menu_small button{
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 60px;
+}
+
+@media screen and (max-width: 1068px) {
+
+    nav{
+        display: none;
+    }
+
+    .menu_small{
+        display: flex;
+    }
+    
+}
+
+
+@media screen and (max-width: 1068px) {
     
 }
